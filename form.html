@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>form pendaftaran</title>
+    </head>
+    <body>
+        <h2>Form Pendaftaran</h2>
+        <form>
+            <table>
+                <tr>
+                    <td><label>nama lengkap</label></td>
+                    <td>:</td>
+                    <td><input type="text" required /></td>
+                </tr>
+                <tr>
+                    <td><label>no hp</label></td>
+                    <td>:</td>
+                    <td><input type="number" required placeholder="masukan angka"/></td>
+                </tr>
+                <tr></tr>
+            </table>
+            
+            <input type="email" required placeholder="masukan email" /><br>
+            <label>password</label>
+            <input type="password"><br>
+            <label>tanggal lahir</label>
+            <input type="date"><br>
+            <label>jenis kelamin</label>
+            <input type="radio" name="jk" value="laki-laki">laki-laki
+            <input type="radio" name="jk" value="perempuan">perempuan<br>
+            <label>hobi</label><br>
+        <input type="checkbox" name="hobi" value="membaca">membaca
+        <input type="checkbox" name="hobi" value="menulis">menulis
+        <input type="checkbox" name="hobi" value="berenang">berenang
+        <input type="checkbox" name="hobi" value="main game">main game
+        <label>alamat</label>
+        <label>jurusan</label>
+        <select id="jurusan" name="jurusan">
+            <option value="rpl">Rekayasa Perangkat Lunak</option>
+            <option value="tkj">Teknik Komputer dan Jaringan</option>
+            <option value="pg">Pengembangan Game</option>
+        </select>
+
+        </form>
+    </body>
+</html>
