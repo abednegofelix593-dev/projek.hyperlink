@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Warung bapak ibra - monggo</title>
+<link rel="stylesheet" href="toko3.css">
+</head>
+<body>
+
+  <h1>Warung bapak ibra</h1>
+  <p style="text-align:center; color:#de9494;">Masakan khas wong atos &bull; Rasa tak perna bohong</p>
+
+  <div class="menu">
+    <h2> Makanan</h2>
+    <ul>
+      <li data-nama="Nasi Rawon" data-harga="15000">
+        Nasi Rawon <span class="harga">Rp15.000</span>
+        <button class="btn-tambah">+ Pilih</button>
+      </li>
+      <li data-nama="Nasi Pecel" data-harga="12000">
+        Nasi Pecel <span class="harga">Rp12.000</span>
+        <button class="btn-tambah">+ Pilih</button>
+      </li>
+      <li data-nama="Ayam Bakar" data-harga="18000">
+        Ayam Bakar <span class="harga">Rp18.000</span>
+        <button class="btn-tambah">+ Pilih</button>
+      </li>
+      <li data-nama="Tahu Tempe Goreng" data-harga="5000">
+        Tahu Tempe Goreng <span class="harga">Rp5.000</span>
+        <button class="btn-tambah">+ Pilih</button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="menu">
+    <h2> Minuman</h2>
+    <ul>
+      <li data-nama="Es Teh Manis" data-harga="4000">
+        Es Teh Manis <span class="harga">Rp4.000</span>
+        <button class="btn-tambah">+ Pilih</button>
+      </li>
+      <li data-nama="Es Jeruk" data-harga="6000">
+        Es Jeruk <span class="harga">Rp6.000</span>
+        <button class="btn-tambah">+ Pilih</button>
+      </li>
+      <li data-nama="Kopi Hitam" data-harga="5000">
+        Kopi Hitam <span class="harga">Rp5.000</span>
+        <button class="btn-tambah">+ Pilih</button>
+      </li>
+      <li data-nama="Wedang Jahe" data-harga="7000">
+        Wedang Jahe <span class="harga">Rp7.000</span>
+        <button class="btn-tambah">+ Pilih</button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="menu keranjang">
+    <h2> Keranjang</h2>
+    <ul id="daftar-keranjang">
+      <li class="kosong">Keranjang masih kosong</li>
+    </ul>
+    <div class="total-baris">
+      <span>Total</span>
+      <span id="total-harga">Rp0</span>
+    </div>
+    <button id="btn-kosongkan" class="btn-kosongkan">Kosongkan Keranjang</button>
+  </div>
+
+  <footer>
+    &copy; 2026 Warung bapak ibra - Terima kasih sudah mampir!
+  </footer>
+
+  <script src="buattoko.js"></script>
+</body>
+</html>
