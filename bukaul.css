@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #444;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.kartu h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 10px;
+}
+
+.kartu p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.kartu p span {
+  font-weight: bold;
+}
